@@ -7,19 +7,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins';
+    outline: none;
 }
 
 .main-map {
     width: 100%;
     height: 100vh;
-
     .popup-info span {
         color: rgb(11, 95, 221);
     }
 }
 
 .menu-container {
-    height: 10%;
+    z-index: 2;
+    height: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
